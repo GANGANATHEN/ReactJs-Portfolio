@@ -35,6 +35,7 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
+
 const About = () => {
   return (
     <>
@@ -47,11 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in HTML and
-        JavaScript, and expertise in frameworks like React, Node.js. 
-         I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a passionate software developer with a knack for creating engaging and responsive web interfaces using HTML, CSS, Bootstrap, and Tailwind CSS. I love working with JavaScript and React.js to bring interactivity and life to web applications. On the backend, my experience with Java helps me build strong, reliable systems. I enjoy turning ideas into functional, beautiful software that users love
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

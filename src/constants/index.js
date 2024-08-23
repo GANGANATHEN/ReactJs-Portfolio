@@ -140,27 +140,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Do not follow where the path may lead. Go instead where there is no path and leave a trail.",
+    name: "Waldo Emerson",
+    designation: "Essayist",
+    company: "An American",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I start with the premise that the function of leadership is to produce more leaders, not more followers.",
+    name: "Ralph Nader",
+    designation: "Author",
+    company: "An American",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Everything you’ve ever wanted is on the other side of fear.",
+    name: "George Addair",
+    designation: "Real-estate developer",
+    company: "post Civil War Atlanta",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
