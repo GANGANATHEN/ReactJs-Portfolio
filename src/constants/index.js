@@ -17,13 +17,17 @@ import {
   python,
   ibm,
   aws,
+  cisco,
   redhat,
+  uomcodl,
+  devtown,
+  eminent,
   weather,
   calci,
   tripguide,
   threejs,
 } from "../assets";
-
+// add a Certificate proof link
 export const navLinks = [
   {
     id: "about",
@@ -114,6 +118,34 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Web Design for Beginners",
+    company_name: "University of Moratuwa, Sri Lanka",
+    icon: uomcodl,
+    iconBg: "#F0F8FF",
+    date: "Web Design Course",
+  },
+  {
+    title: "JavaScript Essentials 1 Course",
+    company_name: "Cisco Networking Academy",
+    icon: cisco,
+    iconBg: "#F0F8FF",
+    date: "CISCO JavaScript Course",
+  },
+  {
+    title: "Front End Web Development with React JS & JavaScript",
+    company_name: "devtown",
+    icon: devtown,
+    iconBg: "#F0F8FF",
+    date: "Bootcamp",
+  },
+  {
+    title: "Web Developement",
+    company_name: "Eminent",
+    icon: eminent,
+    iconBg: "#F0F8FF",
+    date: "Internship Training",
+  },
   {
     title: "IBM Data Science Professional Certificate",
     company_name: "Coursera",
