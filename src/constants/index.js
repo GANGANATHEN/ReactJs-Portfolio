@@ -22,10 +22,14 @@ import {
   uomcodl,
   devtown,
   eminent,
-  weather,
-  calci,
-  tripguide,
   threejs,
+  appleimg,
+  calci,
+  ganganathan,
+  sociallink,
+  qrcode,
+  scoreboard,
+  grade,
 } from "../assets";
 // add a Certificate proof link
 export const navLinks = [
@@ -198,19 +202,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Weather App",
+    name: "iPhone 15 Pro",
     tags: [
       {
-        name: "Python",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "scss",
+        name: "ThreeJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "sentry",
         color: "green-text-gradient",
       },
     ],
-    image: weather,
-    source_code_link: "https://github.com/GREENGANGA/Django-Weather-App",
+    image: appleimg,
+    source_code_link: "https://github.com/GANGANATHEN/Project_React",
+    url:"https://ganganathan-pple.netlify.app",
   },
   {
     name: "Calculator",
@@ -230,12 +243,13 @@ const projects = [
     ],
     image: calci,
     source_code_link: "https://github.com/GREENGANGA/normalcalc",
+    url:"https://ganganathan-calculator.netlify.app",
   },
   {
     name: "Portfolio",
     tags: [
       {
-        name: "Reactjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
@@ -247,8 +261,81 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ganganathan,
     source_code_link: "https://github.com/GREENGANGA/ReactJs-Portfolio",
+    url:"ganganathan.netlify.app/",
+  },
+  {
+    name: "Social Link",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sociallink,
+    source_code_link: "https://github.com/GANGANATHEN/social-links-profile-main",
+    url:"https://ganganathan-social-links-profile-man.netlify.app",
+  },
+  {
+    name: "Qr code",
+    tags: [
+      {
+        name: "Reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: qrcode,
+    source_code_link: "https://github.com/GREENGANGA/qr-code-component-main",
+    url:" https://ganganathan-qr-code-componant.netlify.app/",
+  },
+  {
+    name: "score board",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: scoreboard,
+    source_code_link: "https://github.com/GANGANATHEN/Score-board",
+    url:"https://ganganathancricketscoreboard.netlify.app",
+  },
+  {
+    name: "Grade Calculator",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: grade,
+    source_code_link: "https://github.com/GANGANATHEN/Grade-Calculator",
+    url:"https://ganganathangradecal.netlify.app",
   },
 ];
 

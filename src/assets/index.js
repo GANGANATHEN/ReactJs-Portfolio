@@ -29,9 +29,13 @@ import uomcodl from "./company/UOMcodl.png";
 import devtown from "./company/devtown.png";
 import eminent from "./company/eminent.jpeg";
 
-import weather from "./weather.png";
-import calci from "./calci.png";
-import tripguide from "./tripguide.png";
+import appleimg from "./prjectimg/Appleweb.png";
+import calci from "./prjectimg/calci.png";
+import ganganathan from "./prjectimg/ganganathan.png";
+import sociallink from "./prjectimg/sociallink.png";
+import qrcode from "./prjectimg/qrcode.png";
+import scoreboard from "./prjectimg/cricket.png";
+import grade from "./prjectimg/grademark.png"
 
 export {
   logo,
@@ -62,7 +66,11 @@ export {
   devtown,
   eminent,
   uomcodl,
-  weather,
   calci,
-  tripguide,
+  ganganathan,
+  appleimg,
+  sociallink,
+  qrcode,
+  scoreboard,
+  grade,
 };

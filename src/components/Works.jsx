@@ -15,6 +15,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  url,
+  hi,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -24,7 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[355px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -62,6 +64,11 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
+
+        <div className="w-full text-center mt-6 mb-2">
+           <a href={url} className='text-blue font-bold text-[16px] p-3 bg-black rounded-[12px]'>Web site</a>
+        </div>
+
       </Tilt>
     </motion.div>
   );
